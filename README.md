@@ -1,3 +1,4 @@
+<div align="center"> 
 # Bash TCP Port Scanner with Decoy Functions
 
 Este é um script de scanner de portas TCP escrito em bash, que inclui funções de decoy para distrair possíveis sistemas de detecção. O script tenta estabelecer conexões TCP com um intervalo de portas específico no alvo fornecido como um argumento. As funções de decoy tentam estabelecer conexões TCP com diferentes intervalos de portas, distraindo possíveis sistemas de detecção enquanto o scan é executado.
