@@ -4,7 +4,7 @@ Este é um script de scanner de portas TCP escrito em bash, que inclui funções
 **Como usar:**
 Primeiramente você precisará ter o bash instalado em seu sistema. No terminal:
 
-[1]: git clone https://github.com/raelpr0/shscaN.git
+1. git clone https://github.com/raelpr0/shscaN.git
 2. cd shscaN
 3. chmod + *
 4. bash shscaN.sh IPTARGET ou ./shscaN.sh IPTARGET
