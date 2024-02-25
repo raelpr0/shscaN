@@ -25,14 +25,6 @@ function decoy3() {
     wait
 }
 
-function RND() {
-
-  for port in $(shuf -i 1-65535 -n 1000); do
-    echo '' > /dev/tcp/$ip/$port &
-  done
-    wait
-}
-
 function scanner() {
 
   for port in {1..20000}; do
@@ -40,4 +32,4 @@ function scanner() {
   done
     wait
 }
-decoy1 & decoy2 & decoy3 & RND & scanner 2>/dev/null
+decoy1 & decoy2 & decoy3 & scanner 2>/dev/null
