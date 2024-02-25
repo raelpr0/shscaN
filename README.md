@@ -1,4 +1,18 @@
-<div align="center"> 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <div align="center"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bash TCP Port Scanner with Decoy Functions</title>
+    <style>
+            body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #000;
+            color: #0ff;
+            }
+</head>
+</html>
   
 # Bash TCP Port Scanner with Decoy Functions
 
